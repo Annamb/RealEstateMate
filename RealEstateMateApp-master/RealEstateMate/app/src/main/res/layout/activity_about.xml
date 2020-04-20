@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".ui.AboutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/about_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="About Us"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/colorText"
+            android:textSize="36sp" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="963dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="392dp"
+                    android:layout_margin="20dp">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="180dp"
+                            android:layout_height="match_parent"
+                            app:srcCompat="@drawable/annamphoto" />
+
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="180dp"
+                            android:layout_height="195dp"
+                            app:srcCompat="@drawable/annaphoto" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/annaMB_textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Anna Margrét "
+                            android:textColor="@color/colorText" />
+
+                        <TextView
+                            android:id="@+id/annaKK_textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Anna Kristín"
+                            android:textColor="@color/colorText" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="180dp"
+                            android:layout_height="200dp"
+                            app:srcCompat="@drawable/numiphoto" />
+
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="180dp"
+                            android:layout_height="200dp"
+                            app:srcCompat="@drawable/peturphoto" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="277dp"
+                        android:layout_height="34dp">
+
+                        <TextView
+                            android:id="@+id/type"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Númi Steinn"
+                            android:textColor="@color/colorText" />
+
+                        <TextView
+                            android:id="@+id/typetext"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="Pétur Jökull"
+                            android:textColor="@color/colorText" />
+                    </TableRow>
+                </TableLayout>
+
+                <Button
+                    android:id="@+id/goBackButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorButton"
+                    android:onClick="goHomeAgain"
+                    android:text="Go Back"
+                    android:textColor="@color/colorText"
+                    android:visibility="visible"
+                    tools:visibility="visible" />
+
+                <ScrollView
+                    android:id="@+id/legal_scrollView"
+                    android:layout_width="match_parent"
+                    android:layout_height="161dp">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorText"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:text="@string/about_legaltext" />
+                </ScrollView>
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+</RelativeLayout>

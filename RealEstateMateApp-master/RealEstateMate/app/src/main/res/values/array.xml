@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="townFilterItems">
+        <item>ALL</item>
+        <item>Reykjavík</item>
+        <item>Hafnarfjörður</item>
+        <item>Reykjanesbær</item>
+        <item>Ísafjörður</item>
+        <item>Kópavogur</item>
+        <item>Vogar</item>
+        <item>Garðabær</item>
+    </string-array>
+    <string-array name="zipFilterItems">
+        <item>ALL</item>
+        <item>101</item>
+        <item>102</item>
+        <item>105</item>
+        <item>190</item>
+        <item>200</item>
+        <item>210</item>
+        <item>220</item>
+        <item>230</item>
+        <item>400</item>
+    </string-array>
+    <string-array name="bedroomsFilterItems">
+        <item>ALL</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="bathroomsFilterItems">
+        <item>ALL</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="priceFilterItems">
+        <item>ALL</item>
+        <item>5000000</item>
+        <item>10000000</item>
+        <item>15000000</item>
+        <item>20000000</item>
+        <item>25000000</item>
+        <item>30000000</item>
+        <item>35000000</item>
+        <item>40000000</item>
+        <item>45000000</item>
+        <item>50000000</item>
+        <item>60000000</item>
+        <item>70000000</item>
+        <item>80000000</item>
+        <item>90000000</item>
+        <item>100000000</item>
+    </string-array>
+    <string-array name="sizeFilterItems">
+        <item>ALL</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+        <item>120</item>
+        <item>140</item>
+        <item>160</item>
+        <item>180</item>
+        <item>200</item>
+    </string-array>
+    <string-array name="categoryFilterItems">
+        <item>ALL</item>
+        <item>Apartment</item>
+        <item>House</item>
+        <item>Townhouse</item>
+        <item>Duplex</item>
+    </string-array>
+</resources>
